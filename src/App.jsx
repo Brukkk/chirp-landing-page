@@ -1,11 +1,15 @@
 import Nav from "@components/Nav";
 
+import HeroSection from "./components/HeroSection";
+
 function App() {
   return (
     <>
-      <main className="container p-4 sm:p-8 mx-auto">
-        <Nav />
+      <Nav />
+      <main>
+        <HeroSection />
       </main>
+      <footer></footer>
     </>
   );
 }
